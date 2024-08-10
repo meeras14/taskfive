@@ -1,8 +1,37 @@
-# Nmap 7.94SVN scan initiated Sun Aug  4 16:25:55 2024 as: nmap -p- -oN scan_results.txt 127.0.0.1
-Nmap scan report for localhost (127.0.0.1)
-Host is up (0.000062s latency).
-Not shown: 65534 closed tcp ports (conn-refused)
-PORT   STATE SERVICE
-80/tcp open  http
+# Nmap 7.94SVN scan initiated Sat Aug 10 10:39:25 2024 as: nmap -p- -oN scan_results.txt 10.0.2.4
+Nmap scan report for 10.0.2.4
+Host is up (0.012s latency).
+Not shown: 65505 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+53/tcp    open  domain
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+512/tcp   open  exec
+513/tcp   open  login
+514/tcp   open  shell
+1099/tcp  open  rmiregistry
+1524/tcp  open  ingreslock
+2049/tcp  open  nfs
+2121/tcp  open  ccproxy-ftp
+3306/tcp  open  mysql
+3632/tcp  open  distccd
+5432/tcp  open  postgresql
+5900/tcp  open  vnc
+6000/tcp  open  X11
+6667/tcp  open  irc
+6697/tcp  open  ircs-u
+8009/tcp  open  ajp13
+8180/tcp  open  unknown
+8787/tcp  open  msgsrvr
+34230/tcp open  unknown
+36042/tcp open  unknown
+38449/tcp open  unknown
+52041/tcp open  unknown
 
-# Nmap done at Sun Aug  4 16:25:56 2024 -- 1 IP address (1 host up) scanned in 0.94 seconds
+# Nmap done at Sat Aug 10 10:39:43 2024 -- 1 IP address (1 host up) scanned in 18.12 seconds
